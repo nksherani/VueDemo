@@ -2,6 +2,8 @@
   <div v-if="customers">
     <h1>Customer Portal</h1>
     <router-link to="/add">Add New</router-link>
+    <br/>
+    <br/>
  <table>
   <tr>
     <th>
@@ -134,7 +136,20 @@ form{
 .form-control{
   max-width: 400px;
 }
+a{
+  padding: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 12%;
+  // margin: 20px;
+  border: 2px solid #ddd;
 
-
+}
+h1,h2{
+  width: 100%;
+  background-color: #4CAF50;
+  color: #ddd;
+}
 
 </style>
